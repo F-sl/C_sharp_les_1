@@ -10,6 +10,9 @@ namespace lesson_1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Как тебя зовут?"); // Спрашиваем имя пользователя и переводим консоль на новую строку
+            string name = Console.ReadLine();
+            Console.WriteLine($"Привет, {name}, сегодня [{DateTime.Now}");
         }
     }
 }
